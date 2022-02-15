@@ -1,0 +1,18 @@
+Version control and branch management (Git)
+
+introduction and installation
+Apa versioning itu ? Mengatur versi dari source code program.
+Untuk alat alatnya yaitu git, visual studio code, github sebagai repository nya.
+GIT : salah satu version control system populer yang digunakan para developer untuk mengembangkan software secara bersama-sama. Dapat melakukan kolaborasi.
+Git repository : folder/files yang berisi tentang project kita. Dan history, folder.git nya yang ke hidden seperti perubahan terakhirnya kapan.
+Upload ke arah server yaitu dengan commit.
+
+Setting up and push
+Membuat repository dengan add .gitignore untuk mencegah beberapa file atau folder ke arah github.
+Terdapat konsep staging area dalam github yang mana ada working directory melakukan git add akan masuk ke staging directory lalu got commit untuk ke repository.
+Melakukan clone seperti mendownload apa yang ada di repository. Memasukkan semua file perubahan dengan git add.
+
+Branch and conflic
+Branch, pencabangan didalam pembuatan github. Branch untuk melindungi main project.
+Pull request, teknik ini untuk bisa berkontribusi terhadap repository lain maupun milik sendiri.
+Workflow collaboration, manajemen/mengoptimalkan kolaborasi yang terjadi. Tipsnya membiarkan branch master tidak terdistribusi, menghindari mengedit langsung di arah developer dengan featur featur, masukin feature ke arah development, ketika sudah tidak ada bug dan selesai lalu dimerge ke arah master.
